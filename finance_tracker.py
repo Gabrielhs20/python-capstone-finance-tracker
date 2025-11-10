@@ -5,7 +5,7 @@ expenses = {}
 def display_menu():
     #Keep showing the menu to the user until they decide to exit by pressing option 4
     while True:
-print("----------------------------------------------------------------")
+        print("----------------------------------------------------------------")
         print("What would you like to do? \n1. Add Expense\n2. View All Expenses\n3. View Summary\n4. Exit")
         user_input = input("Choose an option: ")
         print("----------------------------------------------------------------")
